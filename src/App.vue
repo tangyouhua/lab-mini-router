@@ -4,7 +4,6 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <img src="/vite.svg" class="logo" alt="Vite logo" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
 
   <p>
     <!-- 使用router-link导航 -->
