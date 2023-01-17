@@ -23,7 +23,6 @@ export function createRouter(options) {
     window.addEventListener('hashchange', () => {
         // 变化保存到current并触发RouterView更新
         router.current.value = window.location.hash.slice(1)
-        console.log(router.current.value)
     })
     return router
 }
